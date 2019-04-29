@@ -894,6 +894,12 @@
             "id": "StarColorPenCapricorn"
         },
         {
+            "nameEn": "TwinkleStick",
+            "attachments": [],
+            "nameJa": "トゥインクルステッキ",
+            "id": "TwinkleStick"
+        },
+        {
             "nameEn": "Cure Modules",
             "attachments": [
                 "FairyTone"
@@ -3787,6 +3793,27 @@
                 "プリキュア！",
                 "しし座！",
                 "ミルキー・ショック！"
+            ]
+        },
+        {
+            "specialItems": [
+                "TwinkleStick"
+            ],
+            "purifiers": [
+                "CureStar",
+                "CureMilky",
+                "CureSoleil",
+                "CureSelene"
+            ],
+            "speech": [
+                "宇宙（そら）に輝け！イマジネーションの力！",
+                "トゥインクルステッキ！",
+                "スター☆トゥインクル！",
+                "ミルキー☆トゥインクル！",
+                "ソレイユ☆トゥインクル！",
+                "セレーネ☆トゥインクル！",
+                "4つの輝きを今ひとつに！",
+                "プリキュア！サザンクロスショット！"
             ]
         },
         {

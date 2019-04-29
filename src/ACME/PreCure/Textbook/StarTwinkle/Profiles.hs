@@ -60,6 +60,7 @@ specialItems =
   , mkSpecialItem "Star Color Pen Leo"         "スターカラーペン しし座" []
   , mkSpecialItem "Star Color Pen Libra"       "スターカラーペン てんびん座" []
   , mkSpecialItem "Star Color Pen Capricorn"   "スターカラーペン やぎ座" []
+  , mkSpecialItem "TwinkleStick"               "トゥインクルステッキ" []
   ]
 
 transformations :: [Transformation]
@@ -118,6 +119,10 @@ purifications =
       ["CureMilky"]
       [mkIA "StarColorPendant" ["StarColorPenLeo"]]
       ["プリキュア！", "しし座！", "ミルキー・ショック！"]
+  , mkPurification
+      ["CureStar", "CureMilky", "CureSoleil", "CureSelene"]
+      ["TwinkleStick"]
+      purificationSpeech_StarTwinkle
   ]
 
 
@@ -127,6 +132,17 @@ nonItemPurifications =
   , mkNonItemPurification ["CureMilky"]  ["プリキュア！", "ミルキー・ショック！"]
   , mkNonItemPurification ["CureSoleil"] ["プリキュア！", "ソレイユ・シュート！"]
   , mkNonItemPurification ["CureSelene"] ["プリキュア！", "セレーネ・アロー！"]
+  ]
+
+purificationSpeech_StarTwinkle =
+  [ "宇宙（そら）に輝け！イマジネーションの力！"
+  , "トゥインクルステッキ！"
+  , "スター☆トゥインクル！"
+  , "ミルキー☆トゥインクル！"
+  , "ソレイユ☆トゥインクル！"
+  , "セレーネ☆トゥインクル！"
+  , "4つの輝きを今ひとつに！"
+  , "プリキュア！サザンクロスショット！"
   ]
 
 groupMembers :: IsString s => [s]
